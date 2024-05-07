@@ -39,6 +39,18 @@ These findings provide a roadmap for the bank to refine its approach to marketin
 ## Introduction
 The aim was to analyze the dataset's variables to predict clients' likelihood of subscribing to term deposits, utilizing PySpark for data processing.
 
+## File Directory
+- [EDA.ipynb](./Code/EDA.ipynb): This Jupyter notebook conducts an exploratory data analysis (EDA) on the XYZ_Bank_Deposit_Data_Classification.csv dataset using PySpark. Key tasks include:
+    - Basic data understanding
+    - Checking for missing values
+    - Univariate analysis
+    - Bivariate analysis
+    - Correlation matrix
+- [PredictiveModeling&SegmentationCode.ipynb](./Code/PredictiveModeling&SegmentationCode.ipynb): This notebook covers the preprocessing, train-test split, and modeling phases, using logistic regression, random forest, support vector classifier, gradient boosting classifier, and decision trees. It also includes customer segmentation analysis.
+- [clustering_output_6clusters.csv](./Clustering%20Output/clustering_output_6clusters.csv): Stores the output of the clustering analysis with six clusters.
+- [Predictive Models Folder](./Predictive%20Models): Stores all predictive models developed during the project.
+- [Mini Project 2 (Team 3) - Final Presentation.pptx](./Mini%20Project%202%20(Team%203)%20-%20Final%20Presentation.pptx): Stores the final presentation outlining the project results and insights.
+
 ## Table of Contents
 1. [Executive Summary](#executive-summary)
 2. [Introduction](#introduction)
